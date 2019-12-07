@@ -4,8 +4,8 @@
 
 ### Team Members
 
-- Mahmud Qosim Folaranmi
-- AbdulRasheed Ibraheem Akande
+- Mahmud Qosim Folaranmi - Front End Developer
+- AbdulRasheed Ibraheem Akande - Front End Developer 
 
 # Problem
 
