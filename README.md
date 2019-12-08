@@ -4,8 +4,8 @@
 
 ### Team Members
 
-- Mahmud Qosim Folaranmi
-- AbdulRasheed Ibraheem Akande
+- Mahmud Qosim Folaranmi. Front End Developer. qmahmud222@gmail.com
+- Abdulrasheed Ibraheem Akande. Front End Developer. arib1052001@gmail.com
 
 # Problem
 
