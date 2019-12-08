@@ -4,16 +4,15 @@
 
 ### Team Members
 
-- Mahmud Qosim Folaranmi. Front End Developer. qmahmud222@gmail.com
+- Mahmud Qosim Folaranmi. Back End Developer. qmahmud222@gmail.com
 - Abdulrasheed Ibraheem Akande. Front End Developer. arib1052001@gmail.com
 
 # Problem
-
-
+A threat of future full of ignorants resulting from the ineffective use of electronic devices and social media filths distracting the youths(students) of today from learning and discovering.
 
 # Proposed Solution
 
-A social network that connect students together with themselves or with their teachers and instructors through a messaging platform and also provides them with quizzes and past questions.
+A social network that connect students together with themselves or with their teachers and instructors through a messaging platform and also provides them with quizzes and past questions. Which turns learning to a play, and playing learning!
 
 # Proposed Stack
 
