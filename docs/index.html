@@ -1,0 +1,175 @@
+<!Dcotype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="KOYI, A site for learners, Learners group">
+<meta name="description" content="A Social media for learners">
+<meta name="author" content="Mqbani, ARIB, Flux">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/koyi.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="icon" href="pics/favicon.png">
+<title>KOYI - A social media for learners</title>
+</head>
+
+<body>
+
+<div class="main-menu row">
+
+<li class="spec"><img src="pics/logo.jpg">
+<span id="spec-left">☰</span></li>
+<ul id="dispme">
+
+<li class="menu-left"><img src="pics/logo.jpg">
+<span id="spec-ins">×</span></li>
+
+<li class="menu-left"><a href="#">Learn</a>
+<!-- <div class="submenu-cont">
+ <a href="#">Student</a>
+ <a href="#">Parents</a>
+ <a href="#">Teachers</a>
+ <a href="#">Schools</a>
+ </div>--></li>
+ 
+<li class="menu-left"><a href="#">Resources</a>
+<!-- <div class="submenu-cont">
+ <a href="#">Sotlight</a>
+ <a href="#">Blog</a>
+ </div>--></li>
+<li><a href="#">Support</a></li>
+
+<li class="menu-right"><a href="#">Login</a></li>
+
+<li class="menu-right active"><a href="#">Sign Up</a>
+<!-- <div class="submenu-cont">
+ <a href="#">Student</a>
+ <a href="#">Parents</a>
+ <a href="#">Teachers</a>
+ </div>--></li>
+</ul>
+
+</div>
+
+<!--first row starts here-->
+<div class="row first">
+
+<div class="col-6 text">
+<h1>Start Learning Now!</h1>
+<p>Whoever you're, Wherever you're, and Whenever You wish!</p>
+<p style="font-weight:bold">Start learning now as: </p>
+<div class="btn-cont">
+<a href="#"><button class="hmbtn btn1">STUDENT</button></a>
+<a href="#"><button class="hmbtn btn2">DEVELOPER</button></a>
+<a href="#"><button class="hmbtn btn3">LEARNER</button></a>
+</div>
+</div>
+
+<div class="image col-6">
+<img src="pics/ed.png">
+
+</div>
+
+</div>
+<!--second row starts here...-->
+<div class="row second">
+
+<div class="image col-6">
+<img src="pics/teacher.jpg">
+
+</div>
+
+<div class="col-6 text">
+<h1>Tools You May Need As A Teacher</h1>
+<p>Send messages, Share class materials and make learning accessible anywhere. Save your time by bringing all your Classroom tools together.</p>
+<p style="font-weight:bold"><a href="#">Show me how</a></p>
+</div>
+
+</div>
+
+<!--third row starts here-->
+<div class="row second">
+
+<div class="col-6 text">
+<h1>Are You Are A Learner?</h1>
+<p>Are you as student? Do you have challenges getting some subjects right-- Mathematics, Physics, Chemistry, Commerce, Economics and others?
+Or even an Undergraduate?</p>
+<p style="font-weight:bold"><a href="#">Get your problems on their knees!</a></p>
+</div>
+
+<div class="image col-6">
+<img src="pics/items.png">
+
+</div>
+
+</div>
+
+<!--fourth row starts here-->
+<div class="row second">
+
+<div class="image col-6">
+<img src="pics/develop.png">
+</div>
+
+<div class="col-6 text">
+
+<h1>You Think Of Developing Something New?</h1>
+<p>You think</p>
+<p style="font-weight:bold"><a href="#">We can see you through...</a></p>
+</div>
+
+</div>
+
+<!--footer section starts here-->
+<div class="row footer">
+
+<div class="col-4 copyright">
+<h2>KOYI</h2>
+<p>A social network that connects learners together with one another or with teachers and instructors through a messaging platform and also provides them with quizzes and past questions.</p>
+<p>&copy;KOYI <span id="year"></span><p>
+</div>
+
+<div class="col-3 footer-link">
+<h3>Subscribe to our newsletter.</h3>
+<form>
+    <input type="email" required>
+    <button type="submit">Submit</button>
+</form>
+</div>
+
+<div class="col-4">
+<h3>Contact Admins</h3>
+<p><span class="fa fa-phone"></span> +2348126430670, +2349037176846.</p>
+<p><span class="fa fa-envelope"></span> mqbani@gmail.com, arib1052001@gmail.com.</p>
+<p><span class="fa fa-home"></span> SUB, University of Ibadan, Ibadan, Nigeria.</p>
+</div>
+
+</div>
+
+<script>
+var year = new Date().getFullYear();
+document.getElementById('year').innerHTML = year;
+
+var dispbtn = document.getElementById('spec-left');
+var menu = document.getElementById('dispme');
+var closer = document.getElementById('spec-ins');
+
+
+dispbtn.onclick = function(){
+menu.style.display = 'block';
+}
+closer.onclick = function(){
+if(screen.width < 800){
+menu.style.display = "block";
+}
+else{
+menu.style.display = 'none';}
+}
+
+window.onresize = function(){
+if(screen.width > 800){
+menu.style.display = "block";
+}
+}
+</script>
+</body>
+</html>
