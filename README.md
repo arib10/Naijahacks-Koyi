@@ -31,7 +31,7 @@ Javascript, ReactJs.
 ### Clone the repository 
 
 ```
-git clone https://github.com/Mahmudqosim/Koyi.git
+git clone https://github.com/Mahmudqosim/Naijahacks-Koyi.git
 ```
 
 ### Install all dependencies
