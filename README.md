@@ -13,7 +13,7 @@
 
 # Proposed Solution
 
-A social network that connect students together with themselves or with their teachers and instructors through a messaging platform and also provides them with quizzes and past questions.
+A social network that connect students together or with their teachers and instructors through a messaging platform and also provides them with quizzes and past questions.
 
 # Proposed Stack
 
